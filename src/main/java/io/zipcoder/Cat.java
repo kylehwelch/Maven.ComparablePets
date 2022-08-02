@@ -1,5 +1,8 @@
 package io.zipcoder;
 
+import java.lang.Comparable;
+import java.util.Comparator;
+
 public class Cat extends Pet {
     public Cat () {
         this.name = "";
@@ -11,4 +14,5 @@ public class Cat extends Pet {
         this.type = "cat";
         this.speak = "Meow!";
     }
+
 }
